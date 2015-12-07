@@ -1,0 +1,36 @@
+Set Up Instructions
+1.  Create a directory called "Experiment" (or whatever you like).
+2.  Add the index.html file to this directory.
+3.  Create a second directory, which is a subdirectory of "Experiment" called "Styles" (name is important on this one).
+4.  Add the style.css file to this directory.
+5.  Add a third directory, called "javascripts", which is a subdirectory of "Experiment" (name is important on this one, too).
+6.  Add the play.js file to this directory.
+
+Your directory will look like this:
+Experiment
+|
+	index.html
+	style
+	|
+		style.css
+	javascript
+	|
+		play.js
+
+**Note**
+Files having the .htm or .html extension can be opened in a web browser.
+Files having the .css extension are used to hold "cascading style sheets".
+Files having the .js extension are used to hold javascript code
+
+Run Instructions
+1.  Navigate to Experiment\index.html and right click...choose "open in Chrome (or Firefox or Internet Explorer, depending on your browser preference)".  You can also just double click on the file and your computer will choose your default browser.
+2. Notice the page is pretty much just plain text and the buttons don't do anything.
+3.  Uncomment this line:
+   <link href="style/style.css" rel="stylesheet" type="text/css">
+   by removing the <!-- at the beginning and the --> at the end.
+4. Reload the page in your browser and notice that the shapes are all there now.  We just uncommented the style sheet, which contains the css animations for the shapes.  
+5. Now, uncomment this line:
+   <script src="javascript/play.js"></script>
+   by removing the <!-- at the beginning and the --> at the end.
+6.  Now, just play with all of it.  There is tons of info about css, html and javascript on the internet.  It's always a good idea to save a backup copy of the files that you're changing in case you do something that breaks everything (this happens to all of us).
+

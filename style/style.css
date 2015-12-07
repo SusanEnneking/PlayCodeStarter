@@ -1,0 +1,106 @@
+﻿body {
+    margin: 100px 50px 50px 150px;
+    font-family: 'Bigelow Rules', cursive;
+    flex-align: center;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    background: #ffd800;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.moveType1 {
+    -webkit-animation-name: move1;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.moveType2 {
+    -webkit-animation-name: move2;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.moveType3 {
+    -webkit-animation-name: move3;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+
+.container {
+    width: 440px;
+    height: 200px;
+    background: #ffd800;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    margin: 10px 20px 10px 20px;
+}
+
+.circleContainer {
+    margin: 0px 0px 0px 20px;
+}
+
+.oval {
+    width: 100px;
+    height: 180px;
+    background: #0037ff;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    display: inline-block;
+    margin: 10px 20px 10px 20px;
+}
+
+div {
+    margin: 10px 10px 10px 10px;
+}
+
+div .circle{
+    margin: 10px 5px 10px 5px;
+}
+
+@-webkit-keyframes move1 {
+    from {
+        -webkit-transform: translate(0px, 0px);
+    }
+
+    to {
+        -webkit-transform: translate(5px, -110px);
+    }
+}
+
+@-webkit-keyframes move2 {
+    from {
+        -webkit-transform: translate(0px, 0px);
+    }
+
+    to {
+        -webkit-transform: translate(-15px, -190px);
+    }
+}
+
+/*this guy is special*/
+@-webkit-keyframes move3 {
+    from {
+        -webkit-transform: translate(0px, 0px);
+    }
+
+    to {
+        -webkit-transform: translate(60px, -110px);
+    }
+}
+
+.words {
+    display: none;
+}
+
